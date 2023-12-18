@@ -107,6 +107,6 @@ def parse_xml_and_process(xml_string, keywords):
                     # 在设置规则后创建同名文件夹，确保下次不再触发规则
                     os.makedirs(folder_path)
 
-## 运行函数
+
 xml_result = get_ani_subscription()
 parse_xml_and_process(xml_result, keywords)
