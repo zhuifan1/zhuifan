@@ -16,7 +16,7 @@ result=$(echo "$result" | opencc -c t2s.json)
 line1="第一条消息 \n"
 line2="第二条消息 \n"
 line3="第三条消息 \n\n"
-line4="**---------------------最近更新---------------------**"
+line4="**---------------------最近更新---------------------** \n"
 
 # 替换换行符为<br>
 result_with_br=$(echo "$result" | awk '{gsub(/\\n/, "<br>"); print}')
