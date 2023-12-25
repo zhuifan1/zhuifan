@@ -1,7 +1,7 @@
 # alist 自动追番脚本
-简单的追番脚本，使用rclone+alist+qbit实现自动追番
+简单的追番脚本，使用rclone+alist+qbit实现自动追番<br>
 不需要大盘鸡，只要能放得下1集就能追完全集，实测4g硬盘nat鸡追完2023.4到2023.10的所有番
-
+<br>
 ## 简单功能说明 (详情见代码注释)
 ani.py : 用于自动添加订阅 <br>
 auto.sh : 用于上传视频至网盘，可选择吸血或做种(默认做种)，需在qbit设置--torrent 完成时运行外部程序添加 `bash /root/auto.sh "%N" "%F" "%R" "%D" "%C" "%Z" "%I"` ，其中/root/auto.sh换为脚本实际路径<br>
